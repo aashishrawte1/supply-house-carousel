@@ -1,6 +1,6 @@
 'use client';
 //page.tsx
-import Carousel from './components/carousel';
+import Carousel from './components/Carousel';
 
 const items = [
   { imageUrl: 'https://picsum.photos/200' },
