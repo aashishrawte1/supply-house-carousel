@@ -1,0 +1,29 @@
+/* styles/Carousel.module.css */
+.carousel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .carousel-container {
+    display: flex;
+    overflow: hidden;
+  }
+  
+  .carousel-item {
+    transition: transform 0.5s ease;
+  }
+  
+  .carousel-item.active {
+    transform: translateX(0);
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 768px) {
+    .carousel {
+      /* Adjust styling for smaller screens */
+    }
+  }
+  
